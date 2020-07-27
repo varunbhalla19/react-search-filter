@@ -5,7 +5,16 @@ body{
   color: #def;
 }
 
+*{
+  font-family: 'Sora';
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+}
+
+.heading{
+  font-family: 'Gugi';
 }
 

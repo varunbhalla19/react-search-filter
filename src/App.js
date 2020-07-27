@@ -37,6 +37,7 @@ class App extends Component {
   render() {
     return (
       <div className="App" >
+        <h2 className="heading"> React Search Filter </h2>
         <SearchBar filterList={this.filterList} />
         <CardList userList={this.state.showList} />
       </div>
